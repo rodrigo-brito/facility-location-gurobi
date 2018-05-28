@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  gurobi:
+    image: sg2b/gurobi
+    container_name: gurobi652
+    environment:
+      - 'GUROBI_LICENSE=LICENSE_HERE'
+    volumes:
+      - ./license:/home/gurobi
+      - ./src:/opt/gurobi/linux64/scripts
+    network_mode: "host"
