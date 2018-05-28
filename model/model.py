@@ -56,9 +56,14 @@ for i in range(numFacilities):
     m.addConstr(quicksum(z[(i, j)] for j in range(numFacilities)) == 1)
 
 
-def getCost(i, j):
-    return alpha*cost[i][j]*flow[i][j]
+def getCost(z, i, j):
+    allocation = range(numFacilities)
+    for i in range(numFacilities):
+        for j in range(i, numFacilities):
+            if z[(i,j)] == 1:
+                allocation[i] = j
 
+    return alpha*cost[i][j]*flow[i][j]
 
 # FO
 m.setObjective(quicksum(fixedCost[j]*z[(j, j)] +
