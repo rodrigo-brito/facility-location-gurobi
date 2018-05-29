@@ -1615,3 +1615,2746 @@ Solution count 2: 1.04846e+11 8.36718e+11
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.048464441908e+11, best bound 1.048464441908e+11, gap 0.0000%
 Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 19:53:07 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 19:53:23 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 19:54:12 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 19:54:21 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+11
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.03s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 9.090119e+10, 91 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+10 9.0901e+10  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.08 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+10 8.27741e+11 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+10, best bound 9.090118729200e+10, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 19:57:01 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+11
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 9.090119e+10, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+10 9.0901e+10  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+10 8.27741e+11 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+10, best bound 9.090118729200e+10, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 19:57:01 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+11
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 9.090119e+10, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+10 9.0901e+10  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+10 8.27741e+11 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+10, best bound 9.090118729200e+10, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 19:57:02 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+11
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 9.090119e+10, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+10 9.0901e+10  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+10 8.27741e+11 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+10, best bound 9.090118729200e+10, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 19:57:02 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+11
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 9.090119e+10, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+10 9.0901e+10  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+10 8.27741e+11 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+10, best bound 9.090118729200e+10, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 19:57:03 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+11
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 9.090119e+10, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+10 9.0901e+10  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+10 8.27741e+11 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+10, best bound 9.090118729200e+10, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:36:31 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:39:44 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 1.906063e+12
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 1.169223e+12, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.169223e+12 1.1692e+12  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 1.16922e+12 1.90606e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.169223396923e+12, best bound 1.169223396923e+12, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:39:52 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 1.906063e+12
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 1.169223e+12, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.169223e+12 1.1692e+12  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 1.16922e+12 1.90606e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.169223396923e+12, best bound 1.169223396923e+12, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:39:52 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 1.906063e+12
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 1.169223e+12, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.169223e+12 1.1692e+12  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 1.16922e+12 1.90606e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.169223396923e+12, best bound 1.169223396923e+12, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:39:53 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 1.906063e+12
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 1.169223e+12, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.169223e+12 1.1692e+12  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 1.16922e+12 1.90606e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.169223396923e+12, best bound 1.169223396923e+12, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:39:53 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 1.906063e+12
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 1.169223e+12, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.169223e+12 1.1692e+12  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 1.16922e+12 1.90606e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.169223396923e+12, best bound 1.169223396923e+12, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:39:54 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+10, 4e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 1.906063e+12
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 1.169223e+12, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.169223e+12 1.1692e+12  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 1.16922e+12 1.90606e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.169223396923e+12, best bound 1.169223396923e+12, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:43:20 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+05, 4e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078395e+12
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.0784e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078395463095e+12, best bound 1.078322209631e+12, gap 0.0068%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:43:28 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+05, 4e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078395e+12
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.0784e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078395463095e+12, best bound 1.078322209631e+12, gap 0.0068%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:43:29 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+05, 4e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078395e+12
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.0784e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078395463095e+12, best bound 1.078322209631e+12, gap 0.0068%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:43:44 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+06, 4e+08]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.079055e+12
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 1.078323e+12, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.078323e+12 1.0783e+12  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 1.07832e+12 1.07905e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078323171308e+12, best bound 1.078323171308e+12, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:43:46 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+06, 4e+08]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.079055e+12
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 1.078323e+12, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.078323e+12 1.0783e+12  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 1.07832e+12 1.07905e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078323171308e+12, best bound 1.078323171308e+12, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:43:47 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+06, 4e+08]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.079055e+12
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 1.078323e+12, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.078323e+12 1.0783e+12  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 1.07832e+12 1.07905e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078323171308e+12, best bound 1.078323171308e+12, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:43:54 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+05, 4e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078395e+12
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.0784e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078395463095e+12, best bound 1.078322209631e+12, gap 0.0068%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:53:08 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078322e+12
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.07832e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078322209631e+12, best bound 1.078322209631e+12, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:53:11 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078322e+12
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.07832e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078322209631e+12, best bound 1.078322209631e+12, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:53:49 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078322e+10
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.07832e+10 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078322209631e+10, best bound 1.078322209631e+10, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:53:51 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078322e+10
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.07832e+10 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078322209631e+10, best bound 1.078322209631e+10, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:53:52 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078322e+10
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.07832e+10 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078322209631e+10, best bound 1.078322209631e+10, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:53:53 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078322e+10
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.07832e+10 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078322209631e+10, best bound 1.078322209631e+10, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:54:48 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078322e+08
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.07832e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078322209636e+08, best bound 1.078322209631e+08, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:54:51 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078322e+08
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.07832e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078322209636e+08, best bound 1.078322209631e+08, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:54:51 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.078322e+08
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.07832e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.078322209636e+08, best bound 1.078322209631e+08, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:58:08 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 5.121308e+07
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 5.12131e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.121307650600e+07, best bound 5.121307650550e+07, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 20:59:54 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 5.121308e+07
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 5.12131e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.121307650600e+07, best bound 5.121307650550e+07, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 21:03:06 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  QObjective range [1e+06, 2e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0005000
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 0.0003000
+
+Root relaxation: objective 1.000000e-04, 34 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0001000    0.00010  0.00%     -    0s
+
+Explored 1 nodes (34 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 0.0001 0.0003 0.0005 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-04, best bound 1.000000000000e-04, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 21:03:08 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  QObjective range [1e+06, 2e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0005000
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 0.0003000
+
+Root relaxation: objective 1.000000e-04, 34 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0001000    0.00010  0.00%     -    0s
+
+Explored 1 nodes (34 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 0.0001 0.0003 0.0005 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-04, best bound 1.000000000000e-04, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 21:09:29 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-03, 1e-03]
+  QObjective range [1e+06, 2e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0050000
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 0.0030000
+
+Root relaxation: objective 1.000000e-03, 34 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0010000    0.00100  0.00%     -    0s
+
+Explored 1 nodes (34 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 0.001 0.003 0.005 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-03, best bound 1.000000000000e-03, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 21:10:54 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  QObjective range [5e+09, 8e+10]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 0.0005000
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 0.0003000
+
+Root relaxation: objective 1.000000e-04, 34 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0001000    0.00010  0.00%     -    0s
+
+Explored 1 nodes (34 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 0.0001 0.0003 0.0005 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-04, best bound 1.000000000000e-04, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 21:11:27 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-04, 1e-04]
+  QObjective range [5e+09, 8e+10]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 0.0005000
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 0.0003000
+
+Root relaxation: objective 1.000000e-04, 34 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0001000    0.00010  0.00%     -    0s
+
+Explored 1 nodes (34 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 0.0001 0.0003 0.0005 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-04, best bound 1.000000000000e-04, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 21:11:52 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [5e+09, 8e+10]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 21:12:08 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [5e+09, 8e+10]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 21:12:15 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [5e+09, 8e+10]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 21:18:43 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [5e+09, 8e+10]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 21:18:58 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [5e+09, 8e+10]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 21:19:00 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [5e+09, 8e+10]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:00:33 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [5e+09, 8e+10]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.02s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.04 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.14 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:06:13 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:06:45 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:07:44 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:07:45 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:07:46 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:07:47 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:07:47 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:07:48 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:07:53 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:08:25 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 0.0000000
+Presolve removed 110 rows and 100 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:08:52 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:09:44 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.876896e+12
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.8769e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.876896465414e+12, best bound 1.876813691343e+12, gap 0.0044%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:09:46 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.876896e+12
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.8769e+12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.876896465414e+12, best bound 1.876813691343e+12, gap 0.0044%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:09:50 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+07
+
+Root relaxation: objective 9.090119e+06, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+06 4.79349e+07 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:10:01 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+07, 4e+08]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+08
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+08
+
+Root relaxation: objective 9.090119e+07, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+07 9.0901e+07  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+07 4.79349e+08 8.27741e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+07, best bound 9.090118729200e+07, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:10:02 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+07, 4e+08]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+08
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+08
+
+Root relaxation: objective 9.090119e+07, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+07 9.0901e+07  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+07 4.79349e+08 8.27741e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+07, best bound 9.090118729200e+07, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:10:13 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+08, 4e+09]
+  QObjective range [2e+10, 3e+11]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+Warning: Model contains large quadratic objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+09
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 4.793488e+09
+
+Root relaxation: objective 9.090119e+08, 81 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+08 9.0901e+08  0.00%     -    0s
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9.09012e+08 4.79349e+09 8.27741e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+08, best bound 9.090118729200e+08, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:20:04 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+04, 4e+05]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 827740.70513
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 479348.78196
+
+Root relaxation: objective 9.090119e+04, 49 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    90901.187292 90901.1873  0.00%     -    0s
+
+Explored 1 nodes (49 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 90901.2 479349 827741 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+04, best bound 9.090118729200e+04, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:20:05 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+04, 4e+05]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 827740.70513
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 479348.78196
+
+Root relaxation: objective 9.090119e+04, 49 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    90901.187292 90901.1873  0.00%     -    0s
+
+Explored 1 nodes (49 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 90901.2 479349 827741 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+04, best bound 9.090118729200e+04, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:20:06 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+04, 4e+05]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 827740.70513
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 479348.78196
+
+Root relaxation: objective 9.090119e+04, 49 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    90901.187292 90901.1873  0.00%     -    0s
+
+Explored 1 nodes (49 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 90901.2 479349 827741 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+04, best bound 9.090118729200e+04, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:20:07 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+04, 4e+05]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 827740.70513
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 479348.78196
+
+Root relaxation: objective 9.090119e+04, 49 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    90901.187292 90901.1873  0.00%     -    0s
+
+Explored 1 nodes (49 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 90901.2 479349 827741 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+04, best bound 9.090118729200e+04, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:20:08 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+04, 4e+05]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 827740.70513
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 479348.78196
+
+Root relaxation: objective 9.090119e+04, 49 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    90901.187292 90901.1873  0.00%     -    0s
+
+Explored 1 nodes (49 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 90901.2 479349 827741 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+04, best bound 9.090118729200e+04, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:20:13 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+04, 4e+05]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 827740.70513
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+Found heuristic solution: objective 479348.78196
+
+Root relaxation: objective 9.090119e+04, 49 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    90901.187292 90901.1873  0.00%     -    0s
+
+Explored 1 nodes (49 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 90901.2 479349 827741 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+04, best bound 9.090118729200e+04, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:20:53 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+08, 4e+09]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 8.277407e+09
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+08, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+08 9.0901e+08  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+08 8.27741e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+08, best bound 9.090118729200e+08, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:21:16 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+07, 4e+08]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+08
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+07, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+07 9.0901e+07  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+07 8.27741e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+07, best bound 9.090118729200e+07, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:21:23 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+06, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+06 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:21:25 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+06, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+06 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:21:35 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+06, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+06 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:22:28 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+06, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+06 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:24:49 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+06, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+06 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:28:48 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+06, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+06 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:28:50 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+06, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+06 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:28:51 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+06, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+06 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:28:51 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+06, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+06 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:28:52 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+06, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+06 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:29:15 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 45 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+07, 4e+08]
+  QObjective range [2e+06, 3e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+08
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 145 rows, 145 columns, 415 nonzeros
+Variable types: 0 continuous, 145 integer (145 binary)
+
+Root relaxation: objective 9.090119e+07, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9.090119e+07 9.0901e+07  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+07 8.27741e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+07, best bound 9.090118729200e+07, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:45:28 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Model has 90 quadratic objective terms
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  QObjective range [1e+06, 2e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.277407e+07
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 190 rows, 190 columns, 550 nonzeros
+Variable types: 0 continuous, 190 integer (190 binary)
+
+Root relaxation: objective 9.090119e+06, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    9090118.7292 9090118.73  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9.09012e+06 8.27741e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.090118729200e+06, best bound 9.090118729200e+06, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:45:46 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 2.704554e+08
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 1.967715e+08, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.967715e+08 1.9677e+08  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 1.96771e+08 2.70455e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.967714878635e+08, best bound 1.967714878635e+08, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:49:15 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+06, 4e+07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 2.704554e+08
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 100 rows, 100 columns, 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 1.967715e+08, 91 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.967715e+08 1.9677e+08  0.00%     -    0s
+
+Explored 0 nodes (91 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 1.96771e+08 2.70455e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.967714878635e+08, best bound 1.967714878635e+08, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:49:38 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:50:27 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:53:24 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:53:36 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:54:08 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+02, 3e+08]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 2.518365e+08
+Presolve removed 110 rows and 100 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 434.352 2.51837e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.343520000000e+02, best bound 4.343520000000e+02, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 22:54:31 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 110 rows, 100 columns and 280 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+04, 3e+08]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 2.527305e+08
+Presolve removed 110 rows and 100 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 54436.3 2.5273e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.443626290000e+04, best bound 5.443626290000e+04, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 23:04:21 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 23:05:33 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 23:06:10 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon May 28 23:06:16 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
