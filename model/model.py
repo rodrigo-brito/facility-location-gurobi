@@ -8,7 +8,7 @@ fixedCost = [96167740070, 90901187292, 144098750901, 100858633155, 118336648863,
              96559150835, 418597605135, 292279854599, 161831506495, 251832772338]
 
 for i in range(numFacilities):
-    fixedCost[i] = fixedCost[i] / 10000
+    fixedCost[i] = fixedCost[i] / 10000.0
 
 cost = [[0, 369922, 545037, 192699, 200935, 176508, 567702, 170805, 188311, 163857],
         [257936, 0, 249978, 265762, 182892, 231687, 381618, 204121, 124827, 165975],
@@ -26,7 +26,7 @@ cost = [[0, 369922, 545037, 192699, 200935, 176508, 567702, 170805, 188311, 1638
 
 for i in range(numFacilities):
     for j in range(numFacilities):
-        cost[i][j] = cost[i][j] / 100
+        cost[i][j] = cost[i][j] / 100.0
 
 flow = [[0, 19961, 15695, 23247, 23046, 30371, 31577, 32743, 35819, 36032],
         [19961, 0, 20191, 12595, 24553, 18813, 29874, 25425, 38247, 30557],
@@ -41,7 +41,7 @@ flow = [[0, 19961, 15695, 23247, 23046, 30371, 31577, 32743, 35819, 36032],
 
 for i in range(numFacilities):
     for j in range(numFacilities):
-        flow[i][j] = flow[i][j] / 100
+        flow[i][j] = flow[i][j] / 100.0
 
 z = {}  # Hub instalation
 
@@ -64,33 +64,12 @@ for i in range(numFacilities):
 for i in range(numFacilities):
     m.addConstr(quicksum(z[(i, j)] for j in range(numFacilities)) == 1)
 
+m.setObjective(quicksum(fixedCost[j]*z[(j, j)] + quicksum(flow[i][j] * quicksum((cost[i][k] + cost[k][m] * alpha + cost[m][j]) * z[(i, k)] * z[(m, j)]
+                                                                                for i in range(numFacilities)) for k in range(numFacilities) for m in range(numFacilities)) for j in range(numFacilities)))
 
-def getCost(z):
-    FO = 0
-    allocation = [x for x in range(numFacilities)]
-    print("ALOC=", allocation, m.getVars())
-    for i in range(numFacilities):
-        for j in range(numFacilities):
-            if z[(i, j)] == 1:
-                allocation[i] = j
-
-    print("ALOC=", allocation)
-
-    for i in range(numFacilities):
-        FO += fixedCost[i]*z[(i, i)]
-        for j in range(1, numFacilities):
-            k = allocation[i]
-            m = allocation[j]
-            FO += flow[i][j] * (cost[i][k] + cost[k][m] *
-                                alpha + cost[m][j])  # *z[(i, k)]*z[(m, j)]
-            FO += flow[j][i] * (cost[j][m] + cost[m][k] * alpha +
-                                cost[k][i])  # *z[(j, m)]*z[(k, i)]
-
-    return FO
-
-
-m.setObjective(quicksum(fixedCost[i]*z[(i, i)]) + quicksum(flow[i][j]*alpha*cost[i][j]*z[(i, j)])
-               for i in range(numFacilities) for j in range(1, numFacilities))
+# Funciona
+# m.setObjective(quicksum(fixedCost[j]*z[(j, j)] + quicksum(flow[i][j] * cost[i][j] * alpha
+#                                                           * z[(i, j)] for i in range(numFacilities)) for j in range(numFacilities)))
 
 
 # FO / Ótimo = 90963539,4763
