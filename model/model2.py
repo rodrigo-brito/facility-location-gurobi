@@ -3,6 +3,7 @@ import math
 
 numFacilities = 10
 alpha = 0.20
+ex = 1
 
 fixedCost = [96167740070, 90901187292, 144098750901, 100858633155, 118336648863,
              96559150835, 418597605135, 292279854599, 161831506495, 251832772338]
@@ -58,37 +59,62 @@ for i in range(numFacilities):
     for j in range(numFacilities):
         cost[i][j] = costRaw[i][j] / 100.0
 
-z = {}  # Hub instalation
-y = {}
+O = [0 for _ in range(numFacilities)]
+D = [0 for _ in range(numFacilities)]
 
-m = Model()
+for i in range(numFacilities):
+    O[i] = 0
+    for j in range(numFacilities):
+        O[i] += flow[i][j]
+
+for i in range(numFacilities):
+    D[i] = 0
+    for j in range(numFacilities):
+        D[i] += flow[j][i]
+
+z = {}  # Hub instalation
+x = {}  # i to j by hub k and m
+
+model = Model()
 
 for i in range(numFacilities):
     for j in range(numFacilities):
-        z[(i, j)] = m.addVar(vtype=GRB.BINARY, name="z_%d%d" % (i, j))
+        z[(i, j)] = model.addVar(vtype=GRB.BINARY, name="z_%d%d" % (i, j))
 
-for j in range(numFacilities):
-    y[j] = m.addVar(vtype=GRB.BINARY, name="y%d" % j)
+for i in range(numFacilities):
+    for j in range(numFacilities):
+        for k in range(numFacilities):
+            for m in range(numFacilities):
+                x[(i, j, k, m)] = model.addVar(
+                    vtype=GRB.BINARY, name="x_%d%d%d%d" % (i, j, k, m))
 
-m.update()
+model.update()
 
 # Add constraints
 # Z_ik <= Z_kk
 for i in range(numFacilities):
     for k in range(numFacilities):
-        if i != k:
-            m.addConstr(z[(i, k)] <= y[k])
+        model.addConstr(z[(i, k)] <= z[k, k])
+
+for i in range(numFacilities):
+    for k in range(numFacilities):
+        model.addConstr(quicksum(x[(i, j, k, m)] for j in range(
+            numFacilities) for m in range(numFacilities)) == z[(i, k)])
+
+for j in range(numFacilities):
+    for m in range(numFacilities):
+        model.addConstr(quicksum(x[(i, j, k, m)] for i in range(
+            numFacilities) for k in range(numFacilities)) == z[(j, m)])
+
 
 # Add constraints
 # sum(Z_ik) = 1
 for i in range(numFacilities):
-    m.addConstr(quicksum(z[(i, k)] for k in range(numFacilities)) == 1)
+    model.addConstr(quicksum(z[(i, k)] for k in range(numFacilities)) == 1)
 
-m.setObjective(quicksum(fixedCost[m]*y[m] + quicksum((2 * flow[i][j] * (cost[i][k] + cost[k][m] * alpha + cost[m][j])) * z[(i, k)] * z[(m, j)]
-                                                     for i in range(numFacilities) for j in range(i, numFacilities) for k in range(numFacilities)) for m in range(numFacilities)))
+model.setObjective(quicksum(ex*fixedCost[m]*z[(m, m)] + quicksum((O[e] + D[e]) * cost[e][r] for e in range(numFacilities) for r in range(numFacilities)) + quicksum(
+    (flow[i][j] * cost[k][m] * alpha * x[(i, j, k, m)]) for i in range(numFacilities) for j in range(i, numFacilities) for k in range(numFacilities)) for m in range(numFacilities)))
 
-m.modelSense = GRB.MINIMIZE
-m.update()
 
 # Funciona
 # m.setObjective(quicksum(fixedCost[j]*z[(j, j)] + quicksum(flow[i][j] * cost[i][j] * alpha
@@ -100,9 +126,10 @@ m.update()
 # m.setObjective(quicksum(fixedCost[j]*z[(j, j)] + CostTrasnport()
 # quicksum(getCost(z, i, j)*z[(i, j)] for i in range(numFacilities)) for j in range(numFacilities)))
 
-m.optimize()
+model.modelSense = GRB.MINIMIZE
+model.optimize()
 
-print("Result = ", m.objVal)
-for var in m.getVars():
-    if (var.getAttr(GRB.Attr.X) > 0):
-        print("var ", var)
+print("Result = ", model.objVal)
+# for var in model.getVars():
+#     if (var.getAttr(GRB.Attr.X) > 0):
+#         print("var ", var)
