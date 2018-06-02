@@ -3,7 +3,6 @@ import math
 
 numFacilities = 10
 alpha = 0.20
-ex = 1
 
 fixedCost = [96167740070, 90901187292, 144098750901, 100858633155, 118336648863,
              96559150835, 418597605135, 292279854599, 161831506495, 251832772338]
@@ -75,7 +74,7 @@ for i in range(numFacilities):
 z = {}  # Hub instalation
 x = {}  # i to j by hub k and m
 
-model = Model()
+model = Model("hub-location")
 
 for i in range(numFacilities):
     for j in range(numFacilities):
@@ -86,34 +85,54 @@ for i in range(numFacilities):
         for k in range(numFacilities):
             for m in range(numFacilities):
                 x[(i, j, k, m)] = model.addVar(
-                    vtype=GRB.BINARY, name="x_%d%d%d%d" % (i, j, k, m))
+                    vtype=GRB.INTEGER, name="x_%d%d%d%d" % (i, j, k, m))
 
 model.update()
 
+# Auxiliar expressions
+nodes = range(numFacilities)
+hubs = [k for k in range(numFacilities) if z[(k, k)] >= 0.9]
+
 # Add constraints
+
+# Z_ik = 1
+for i in nodes:
+    model.addConstr(quicksum(z[(i, k)] for k in hubs) == 1)
+
 # Z_ik <= Z_kk
-for i in range(numFacilities):
-    for k in range(numFacilities):
-        model.addConstr(z[(i, k)] <= z[k, k])
+for i in nodes:
+    for k in hubs:
+        if i != k:
+            model.addConstr(z[(i, k)] <= z[k, k])
 
-for i in range(numFacilities):
-    for k in range(numFacilities):
-        model.addConstr(quicksum(x[(i, j, k, m)] for j in range(
-            numFacilities) for m in range(numFacilities)) == z[(i, k)])
+for i in nodes:
+    for k in hubs:
+        model.addConstr(quicksum(x[(i, j, k, m)]
+                                 for j in nodes for m in hubs) == z[(i, k)])
 
-for j in range(numFacilities):
-    for m in range(numFacilities):
-        model.addConstr(quicksum(x[(i, j, k, m)] for i in range(
-            numFacilities) for k in range(numFacilities)) == z[(j, m)])
+for j in nodes:
+    for m in hubs:
+        model.addConstr(quicksum(x[(i, j, k, m)]
+                                 for i in nodes for k in hubs) == z[(j, m)])
 
+for i in nodes:
+    for j in nodes:
+        for k in hubs:
+            for m in hubs:
+                model.addConstr(x[(i, j, k, m)] >= 0)
 
-# Add constraints
-# sum(Z_ik) = 1
-for i in range(numFacilities):
-    model.addConstr(quicksum(z[(i, k)] for k in range(numFacilities)) == 1)
+nodes = [n for n in range(numFacilities)]
+hubs = [k for k in range(numFacilities) if z[(k, k)] >= 0.9]
 
-model.setObjective(quicksum(ex*fixedCost[m]*z[(m, m)] + quicksum((O[e] + D[e]) * cost[e][r] for e in range(numFacilities) for r in range(numFacilities)) + quicksum(
-    (flow[i][j] * cost[k][m] * alpha * x[(i, j, k, m)]) for i in range(numFacilities) for j in range(i, numFacilities) for k in range(numFacilities)) for m in range(numFacilities)))
+model.setObjective(
+    quicksum(
+        fixedCost[k]*z[(k, k)] for k in hubs
+    ) + quicksum(
+        (O[i] + D[i]) * cost[i][k] * z[(k, k)] for i in nodes for k in hubs
+    ) + quicksum(
+        flow[i][j] * cost[k][m] * alpha * x[(i, j, k, m)] for i in nodes for j in nodes for k in hubs for m in hubs
+    )
+)
 
 
 # Funciona
