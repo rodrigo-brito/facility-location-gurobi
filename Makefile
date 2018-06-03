@@ -1,10 +1,10 @@
-TWOUP    = $(GUROBI_HOME)
-INC      = $(TWOUP)/include/
-CPP      = g++-4.9
-CARGS    = -m64 -g
-CPPLIB   = -L$(TWOUP)/lib -lgurobi_c++ -lgurobi80                                                                                                   
+CPLEX		= /usr/ilog12.4
+INC      	= -I$(CPLEX)/cplex/include -I$(CPLEX)/concert/include
+CPP      	= g++
+ARGS    	= -w -fPIC -fexceptions -DNDEBUG -DIL_STD
+CPPLIB   	= -L$(CPLEX)/cplex/lib/x86-64_sles10_4.1/static_pic -lilocplex -lcplex -L$(CPLEX)/concert/lib/x86-64_sles10_4.1/static_pic -lconcert -lm -lpthread
 
 build:
-	$(CPP) $(CARGS) -o bin/solver src/solver.cpp -I$(INC) $(CPPLIB) -lm
+	$(CPP) $(ARGS) -o bin/solver model/cplex.cpp $(INC) $(CPPLIB)
 run: build
-	./bin/solver teste.m
+	./bin/solver data/10LT.txt
