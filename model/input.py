@@ -17,9 +17,15 @@ class Data:
         self.size = int(self.nextLine())
         self.alpha = float(self.nextLine())
 
+        ex = 1.0
+        if self.size >= 170:
+            ex = 5.0
+        elif self.size >= 70:
+            ex = 2.0
+
         self.fixedCost = []
         for i in range(self.size):
-            self.fixedCost.append(float(self.nextLine()) / 10000.0)
+            self.fixedCost.append(float(self.nextLine()) * ex / 10000.0)
 
         self.flow = {}
         for i in range(self.size):

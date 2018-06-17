@@ -11,6 +11,7 @@ if len(sys.argv) != 2:
 data = Data(sys.argv[1])
 nodes = range(data.size)
 model = Model("hub-location")
+model.setParam(GRB.Param.TimeLimit, 60 * 60 * 10.0) # 10 hour
 
 # Aggregate demand (O_i and D_i)
 O = [0] * data.size
@@ -56,17 +57,16 @@ for i in nodes:
 
 # sum_m(x_ijkm) = Z_ik
 for i in nodes:
-    for j in nodes:
-        if (i < j):
-            for k in nodes:
-                model.addConstr(quicksum(x[(i, j, k, m)] for m in nodes) - z[(i, k)] == 0)
+    for j in range(i, data.size):
+        for k in nodes:
+            model.addConstr(quicksum(x[(i, j, k, m)] for m in nodes) - z[(i, k)] == 0)
 
 # sum_k(x_ijkm) = Z_jm
 for i in nodes:
-    for j in nodes:
-        if (i < j):
-            for m in nodes:
-                model.addConstr(quicksum(x[(i, j, k, m)] for k in nodes) - z[(j, m)] == 0)
+    for j in range(i, data.size):
+        for m in nodes:
+            model.addConstr(quicksum(x[(i, j, k, m)] for k in nodes) - z[(j, m)] == 0)
+
 # X_ijkm >= 0
 for i in nodes:
     for j in nodes:
@@ -90,9 +90,16 @@ model.write('model.lp')
 model.modelSense = GRB.MINIMIZE
 model.optimize()
 
-# Print optimized transportation plan
-if model.status == GRB.OPTIMAL:
-    print("Result = ", model.objVal)
-    print("Hubs = ", [k for k in nodes if z[(k, k)].X >= 0.9])            
-else:
+# Print results
+if model.status != GRB.OPTIMAL:
     print('No optimum solution found. Status: %i' % (model.status))
+
+hubs = [k for k in nodes if z[(k, k)].X >= 0.9]
+print("Result = %.4f" % model.objVal)
+print("GAP = %.4f %%" % model.MIPGap)
+print("Time = %.4f seg" % model.Runtime)
+print("Hubs = ", hubs)
+print("-------------")
+print("FO, GAP, TIME, HUBS")
+print("-------------")
+print("%.4f,%.4f,%.4f,%d" % (model.objVal, model.MIPGap, model.Runtime, len(hubs)))
