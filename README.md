@@ -1,6 +1,6 @@
 # Facility Location - Gurobi
 
-Exact aproach to solve the facility location problem with Gurobi.
+Exact approach to solve the facility location problem with Gurobi.
 
 Example of use:
 
