@@ -1,10 +1,41 @@
-CPLEX		= /usr/ilog12.4
-INC      	= -I$(CPLEX)/cplex/include -I$(CPLEX)/concert/include
-CPP      	= g++
-ARGS    	= -w -fPIC -fexceptions -DNDEBUG -DIL_STD
-CPPLIB   	= -L$(CPLEX)/cplex/lib/x86-64_sles10_4.1/static_pic -lilocplex -lcplex -L$(CPLEX)/concert/lib/x86-64_sles10_4.1/static_pic -lconcert -lm -lpthread
-
-build:
-	$(CPP) $(ARGS) -o bin/solver model/cplex.cpp $(INC) $(CPPLIB)
-run: build
-	./bin/solver data/10LT.txt
+run:
+	python model/solver.py data/ap10_2.txt
+	python model/solver.py data/ap10_4.txt
+	python model/solver.py data/ap10_6.txt
+	python model/solver.py data/ap10_8.txt
+	python model/solver.py data/ap20_2.txt
+	python model/solver.py data/ap20_4.txt
+	python model/solver.py data/ap20_6.txt
+	python model/solver.py data/ap20_8.txt
+	python model/solver.py data/ap30_2.txt
+	python model/solver.py data/ap30_4.txt
+	python model/solver.py data/ap30_6.txt
+	python model/solver.py data/ap30_8.txt
+	python model/solver.py data/ap40_2.txt
+	python model/solver.py data/ap40_4.txt
+	python model/solver.py data/ap40_6.txt
+	python model/solver.py data/ap40_8.txt
+	python model/solver.py data/ap50_2.txt
+	python model/solver.py data/ap50_4.txt
+	python model/solver.py data/ap50_6.txt
+	python model/solver.py data/ap50_8.txt
+	python model/solver.py data/ap60_2.txt
+	python model/solver.py data/ap60_4.txt
+	python model/solver.py data/ap60_6.txt
+	python model/solver.py data/ap60_8.txt
+	python model/solver.py data/ap70_2.txt
+	python model/solver.py data/ap70_4.txt
+	python model/solver.py data/ap70_6.txt
+	python model/solver.py data/ap70_8.txt
+	python model/solver.py data/ap80_2.txt
+	python model/solver.py data/ap80_4.txt
+	python model/solver.py data/ap80_6.txt
+	python model/solver.py data/ap80_8.txt
+	python model/solver.py data/ap90_2.txt
+	python model/solver.py data/ap90_4.txt
+	python model/solver.py data/ap90_6.txt
+	python model/solver.py data/ap90_8.txt
+	python model/solver.py data/ap100_2.txt
+	python model/solver.py data/ap100_4.txt
+	python model/solver.py data/ap100_6.txt
+	python model/solver.py data/ap100_8.txt
