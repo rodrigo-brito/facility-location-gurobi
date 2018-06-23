@@ -1,41 +1,31 @@
 run:
-	python model/solver.py data/ap10_2.txt
-	python model/solver.py data/ap10_4.txt
-	python model/solver.py data/ap10_6.txt
-	python model/solver.py data/ap10_8.txt
-	python model/solver.py data/ap20_2.txt
-	python model/solver.py data/ap20_4.txt
-	python model/solver.py data/ap20_6.txt
-	python model/solver.py data/ap20_8.txt
-	python model/solver.py data/ap30_2.txt
-	python model/solver.py data/ap30_4.txt
-	python model/solver.py data/ap30_6.txt
-	python model/solver.py data/ap30_8.txt
-	python model/solver.py data/ap40_2.txt
-	python model/solver.py data/ap40_4.txt
-	python model/solver.py data/ap40_6.txt
-	python model/solver.py data/ap40_8.txt
-	python model/solver.py data/ap50_2.txt
-	python model/solver.py data/ap50_4.txt
-	python model/solver.py data/ap50_6.txt
-	python model/solver.py data/ap50_8.txt
-	python model/solver.py data/ap60_2.txt
-	python model/solver.py data/ap60_4.txt
-	python model/solver.py data/ap60_6.txt
-	python model/solver.py data/ap60_8.txt
-	python model/solver.py data/ap70_2.txt
-	python model/solver.py data/ap70_4.txt
-	python model/solver.py data/ap70_6.txt
-	python model/solver.py data/ap70_8.txt
-	python model/solver.py data/ap80_2.txt
-	python model/solver.py data/ap80_4.txt
-	python model/solver.py data/ap80_6.txt
-	python model/solver.py data/ap80_8.txt
-	python model/solver.py data/ap90_2.txt
-	python model/solver.py data/ap90_4.txt
-	python model/solver.py data/ap90_6.txt
-	python model/solver.py data/ap90_8.txt
-	python model/solver.py data/ap100_2.txt
-	python model/solver.py data/ap100_4.txt
-	python model/solver.py data/ap100_6.txt
-	python model/solver.py data/ap100_8.txt
+	python model/solver.py data/ap10_2.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap10_4.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap40_2.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap40_4.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap40_6.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap40_8.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap50_2.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap50_4.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap50_6.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap50_8.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap60_2.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap60_4.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap60_6.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap60_8.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap70_2.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap70_4.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap70_6.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap70_8.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap80_2.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap80_4.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap80_6.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap80_8.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap90_2.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap90_4.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap90_6.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap90_8.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap100_2.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap100_4.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap100_6.txt && gurobi_cl TimeLimit=14400 model.rlp
+	python model/solver.py data/ap100_8.txt && gurobi_cl TimeLimit=14400 model.rlp

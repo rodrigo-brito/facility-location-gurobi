@@ -11,7 +11,7 @@ if len(sys.argv) != 2:
 data = Data(sys.argv[1])
 nodes = range(data.size)
 model = Model("hub-location")
-model.setParam(GRB.Param.TimeLimit, 60 * 60 * 10.0) # 10 hour
+# model.setParam(GRB.Param.TimeLimit, 60 * 60 * 10.0) # 10 hour
 
 # Aggregate demand (O_i and D_i)
 O = [0] * data.size
@@ -32,14 +32,14 @@ x = {}  # route
 # z_kk
 for i in nodes:
     for j in nodes:
-        z[(i, j)] = model.addVar(vtype=GRB.BINARY, name="z_%d%d" % (i, j))
+        z[(i, j)] = model.addVar(vtype=GRB.BINARY, name="z_%d_%d" % (i, j))
 
 # x_ijkm
 for i in nodes:
     for j in nodes:
         for k in nodes:
             for m in nodes:
-                x[(i, j, k, m)] = model.addVar(vtype=GRB.CONTINUOUS, name="x_%d%d%d%d" % (i, j, k, m))
+                x[(i, j, k, m)] = model.addVar(vtype=GRB.CONTINUOUS, name="x_%d_%d_%d_%d" % (i, j, k, m))
 
 # Update model
 model.update()
@@ -86,7 +86,9 @@ model.setObjective(
 )
 
 # Save LP model and run
-model.write('model.lp')
+model.write('model.rlp')
+exit(0) # Only write model
+
 model.modelSense = GRB.MINIMIZE
 model.optimize()
 
