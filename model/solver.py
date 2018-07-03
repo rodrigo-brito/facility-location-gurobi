@@ -87,7 +87,6 @@ model.setObjective(
 
 # Save LP model and run
 model.write('model.rlp')
-exit(0) # Only write model
 
 model.modelSense = GRB.MINIMIZE
 model.optimize()
